@@ -142,6 +142,7 @@ default configuration."
              (spaceline-evil-replace "chocolate" "Evil replace state face.")
              (spaceline-evil-visual "gray" "Evil visual state face.")
              (spaceline-evil-motion "plum3" "Evil motion state face.")
+             (spaceline-evil-operator "MediumPurple3" "Evil operator state face.")
              (spaceline-unmodified "DarkGoldenrod2" "Unmodified buffer face.")
              (spaceline-modified "SkyBlue2" "Modified buffer face.")
              (spaceline-read-only "plum3" "Read-only buffer face.")))
@@ -164,6 +165,7 @@ Set `spaceline-highlight-face-func' to
     (emacs . spaceline-evil-emacs)
     (replace . spaceline-evil-replace)
     (visual . spaceline-evil-visual)
+    (operator . spaceline-evil-operator)
     (motion . spaceline-evil-motion))
   "Association list mapping evil states to their corresponding highlight faces.
 Is used by `spaceline-highlight-face-evil-state'.")
